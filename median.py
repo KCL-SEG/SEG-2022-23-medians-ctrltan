@@ -6,7 +6,7 @@ def median(nums):
         med = (nums[int(len(nums)/2)] + nums[int((len(nums)/2)-1)])/2
     else:
         med = nums[int((len(nums)-1)/2)]
-    return(med)
+    print(med)
 
 while True:
     try:
